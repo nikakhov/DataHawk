@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="official">DataHawk Beta</string>
+    <string name="nonofficial">Crowd Source Android Phone v1.0</string>
+    <string name="app_name">DataHawk Beta</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name ="about_title">About DataHawk™</string>
+    <string name="about_label">About</string>
+    <string name="about_text">
+        <b><u>\nDelay and Jitter:\n</u></b>
+        <p>\nDelay and delay variation (i.e. jitter) are critical for real-time applications, such as voice over IP.  They can be categorized as acceptable/unacceptable for voice calls.  Lower values provide a better user experience.\n</p>
+        <p>\n- Acceptable delay&lt;150ms
+\n- Acceptable jitter&lt;30ms
+
+</p>
+        <p><b><u>\n\n\nBandwidth categories:\n</u></b>
+    \n&lt;30 kb/s for email or mostly-text web pages
+    \n30-256 kb/s for streaming audio
+    \n256 - 2300 kb/s for streaming SD video
+    \n<u>HD Video:</u>
+    \n2300 - 4500 kb/s for 720p video
+    \n4500 - 9000 kb/s for 1080p video
+    \nOver 9000 kb/s for 3D 1080p movies
+\n\n</p>
+        
+<p>\nContact: Nikita Sharakhov, sharni@vt.edu\n</p>
+        </string>
+    <string name="privacy_title">Privacy Policy</string>
+    <string name="privacy_text"><p><b><u>\n\t\t\t\t\t\t\t\tPrivacy Policy\n\n</u></b></p>
+        .....\n
+    </string>
+    <string name="standardTest">Start Test</string>
+
+    <string name="fail_tip">Test failed.</string>  
+    <string name="test_begins_at">Testing started at %1$s</string>
+    <string name="test_interrupted_at"> interrupted at %1$s</string>
+    <string name="from_header">From:</string>
+    <string name="to_header">To:</string>
+
+    <string name="server_indicator">Server: %1$s</string>
+    <string name="host_indicator">Host: %1$s</string>
+    <string name="no_GPS_info">No GPS signal. %1$s</string>
+    <string name="latitude_result">Latitude: %1$f</string>
+    <string name="longitude_result">Longitude: %1$f</string>
+    <string name="version_indicator">Version: %1$s</string>
+    <string name="default_server_indicator">Default server: %1$s</string>
+    <string name="network_type_indicator">NetworkType: %1$s</string>
+    <string name="network_provider">NetworkProvider: %1$s</string>
+    <string name="network_operator">NetworkOperator: %1$s</string>
+    <string name="connection_type">ConnectionType: %1$s</string>
+    <string name="changed_server">Changed testing server to: %1$s</string>
+    <string name="os_line">OS: Name = %1$s, Architecture = %2$s, Version = %3$s</string>
+    <string name="java_line">Java: Version = %1$s, Vendor = %2$s</string>
+    <string name="email_title">CPUC Mobile Client for Android Result on %1$s</string>
+    <string name="intent_error">Statistics Activity Intent Error.</string>
+    <string name="test_again">---------End of Test-------</string>
+    
+
+<?menu preferences ?>
+
+	<string name="GPSoverride_title">GPS Override</string>
+	<string name="GPSoverride_summary">Disable checking for valid GPS (Latitude/Longitude) readings.</string>
+
+	<string name="headerDescription">Application Header Image</string>	
+
+	<string name="Indoor">Indoor</string>	
+	<string name="Outdoor">Outdoor</string>
+
+	<string name="uploadLabel">Upload Speed</string>
+	<string name="downloadLabel">Download Speed</string>	
+	<string name="latencyLabel">Delay</string>
+	<string name="jitterLabel">Jitter</string>
+	<string name="kilobytespersecond">kb/s</string>
+	<string name="miliseconds">ms</string>
+	<string name="testAgain">"Test Again"</string>
+	<string name="defaultValue">0</string>
+</resources>

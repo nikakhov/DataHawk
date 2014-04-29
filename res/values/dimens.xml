@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="numDisplayWidth">85sp</dimen>
+    <dimen name="labelWidth">165sp</dimen>
+    <dimen name="unitsWidth">35sp</dimen>
+    <dimen name="standardPadding">1sp</dimen>
+    <dimen name="adjustmentPadding">1sp</dimen>
+    <dimen name="numResultsSize">22sp</dimen>
+    <dimen name="resultsLabelSize">15sp</dimen>
+    <dimen name="resultsHeight">26.5sp</dimen>
+</resources>
